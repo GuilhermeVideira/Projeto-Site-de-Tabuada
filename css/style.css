@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border-radius: 11px;
+    justify-content: height;
+    box-shadow: 5px 5px 10px rgb(3s8, 0, 255);
+}
+
+.texto01 {font-family: Segoe UI; 
+    color: #000000;  
+    font-size: 26px} 
+    
+.texto02 {font-family: Segoe UI; 
+        color: #ffffff;} 
+
+.imagem-redonda {
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+.imagem-redonda img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.gradiente-rosa-claro {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #f0f0f0, #ffffff);
+}
